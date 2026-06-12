@@ -1,9 +1,7 @@
 /*
  * lab07.c - Laboratorio 07: Control de Flujo Excepcional
- * Asignatura : Programación de Sistemas - UNSA
+ * Asignatura : Programación de Sistemas 
  * Descripción: 10 ejercicios sobre excepciones, procesos y señales en C
- * Compilar   : gcc -o lab07 lab07.c
- * Ejecutar   : ./lab07
  */
 
 #include <stdio.h>
