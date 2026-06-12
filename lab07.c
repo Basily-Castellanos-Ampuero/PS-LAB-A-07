@@ -94,8 +94,7 @@ void ej2_syscalls(void) {
     fclose(fr);
     remove(nombre);   /* limpieza */
 
-    printf("\nPara analizar llamadas al sistema, ejecuta:\n");
-    printf("  strace ./lab07 2>&1 | grep -E 'open|read|close|write'\n");
+    printf("ejecutar:  strace ./lab07 2>&1 | grep -E 'open|read|close|write'\n");
 }
 
 /* ═══════════════════════════════════════════════════════
